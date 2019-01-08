@@ -107,7 +107,7 @@ body {
 .image-gallery__item:hover {
   /* 1.1倍に拡大 */
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+          transform: scale(1.1) rotate(7deg);
 }
 
 .image-gallery__img {
@@ -361,8 +361,8 @@ footer {
   }
 
   .image-gallery__item {
-    width: 192px;
-    height: 192px;
+    width: 176px;
+    height: 176px;
     border: 16px solid #fff;
     box-shadow: 8px 8px 12px 1px #ccc;
   }
